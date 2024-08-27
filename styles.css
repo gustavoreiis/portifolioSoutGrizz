@@ -1,0 +1,171 @@
+:root {
+    --cor-principal: #ca44f6;
+    --cor-unifil: #f39200;
+    --cor-principal-shade: #982fba;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 3% 10%;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid var(--cor-principal);
+    margin-bottom: 3%;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    font-size: 1.3rem;
+    list-style-type: none;
+}
+
+li:hover {
+    border-bottom: 4px solid var(--cor-principal);
+    display: inline;
+    cursor: pointer
+}
+
+.soutGrizz {
+    color: var(--cor-principal)
+}
+
+.imgHeader {
+    width: 10%
+}
+
+.apresentacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannerImagem {
+    width: 100%;
+}
+.emBreve, .banner {
+    width: 45%;
+}
+
+h1 {
+    font-size: 3.4rem;
+}
+
+.tituloEmBreve span {
+    color: var(--cor-principal);
+}
+
+p {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+#inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.extensao h1, .descricaoSobreNos h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.extensao span {
+    color: var(--cor-unifil)
+}
+
+.extensao {
+    width: 60%;
+}
+
+.descricaoSobreNos a {
+    color: var(--cor-unifil)
+}
+
+#sobreNos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descricaoSobreNos {
+    width: 60%;
+    text-align: center;
+}
+
+.imagensSobreNos {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.imagensSobreNos * {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagensSobreNos img {
+    width: 13rem;
+}
+
+.gabriel, .gustavo, .renan {
+    border-bottom: 4px solid var(--cor-principal);
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linha p {
+    margin: 2% 0 2% 0;
+}
+
+.linha div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+#sobre h1 {
+    font-size: 2rem;
+}
+
+button {
+    background-color: var(--cor-principal);
+    border: none;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    width: 30%;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: var(--cor-principal-shade);
+    cursor: pointer;
+}
