@@ -25,6 +25,11 @@ header a {
     text-decoration: none;
 }
 
+hr {
+    color: var(--cor-principal);
+    width: 100%;
+}
+
 ul {
     display: flex;
     align-items: center;
@@ -160,8 +165,8 @@ button {
     border: none;
     font-family: "Poppins", sans-serif;
     color: white;
-    width: 30%;
-    height: 2rem;
+    width: 35%;
+    height: 2.5rem;
     border-radius: 5px;
 }
 
@@ -169,3 +174,54 @@ button:hover {
     background-color: var(--cor-principal-shade);
     cursor: pointer;
 }
+
+#documentacao h1 {
+    font-size: 2rem;
+}
+
+#documentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pitch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.descricaoPitch {
+    width: 30%;
+}
+
+.mvp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mvp img {
+    width: 60%;
+}
+
+.visao, .sequencia, .casoUso, .mvp, .telas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.visao button, .telas button {
+    width: 15rem;
+    height: 3rem;
+    margin-bottom: 10%;
+}
+
+.sequencia img {
+    width: 50%;
+}
+
+.casoUso img {
+    width: 65%;
+} 
