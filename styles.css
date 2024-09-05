@@ -225,3 +225,10 @@ button:hover {
 .casoUso img {
     width: 65%;
 } 
+
+.imagensSobreNos button {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
