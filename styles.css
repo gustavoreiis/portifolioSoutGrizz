@@ -49,6 +49,10 @@ li:hover {
     color: var(--cor-principal)
 }
 
+.imgHeader:hover {
+    cursor: pointer;
+}
+
 .imgHeader {
     width: 10%
 }
@@ -232,3 +236,5 @@ button:hover {
     justify-content: center;
     margin-bottom: 10px;
 }
+
+
